@@ -1,0 +1,8 @@
+
+* The C Programming Language
+
+This repo it's for only educative purposes.
+Resolving the exercises from the C programming Language Book by K&R.
+
+I hope this will may help you.
+
