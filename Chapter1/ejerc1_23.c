@@ -11,7 +11,6 @@
 int main(){
   int c, state = OUT; //state -> IN or OUT a comment
   while((c = getchar()) != EOF){
-    
     if(c == '/'){
       c = getchar();
       if(c == '/')
@@ -30,7 +29,7 @@ int main(){
       else if(c == '\n' && state == INSC)
 	state = OUT;
     }
-
+    
     if(!state)
       putchar(c);
   }
